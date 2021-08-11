@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #50d8af;
+  background: #17a2b8;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -61,7 +61,7 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #50d8af;
+  background: #17a2b8;
   color: #fff;
   outline: none;
 }
@@ -354,6 +354,23 @@ h6 {
   outline: none;
 }
 
+.nav-menu li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  transition: .2s ease-out;
+  background-color: #c71010;
+}
+
+.nav-menu li:hover::after {
+  width: 100%;
+}
+
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
   color: #0c2e8a;
@@ -507,7 +524,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-header {
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .section-header h2 {
