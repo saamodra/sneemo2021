@@ -1,2 +1,2 @@
-# sneemo-2021
+# Website untuk menunjang kegiatan SNEEMO 2021
  
