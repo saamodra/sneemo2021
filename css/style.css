@@ -71,6 +71,12 @@ h6 {
   color: #fff;
 }
 
+.img-logo {
+  position: fixed;
+  top: 0;
+  max-height: 90px;
+}
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -1158,7 +1164,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .member .pic {
-  height: 450px;
+  height: 350px;
   overflow: hidden;
   text-align: center;
   object-fit: cover;
@@ -1535,7 +1541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    max-height: 40px;
+    max-height: 80px;
   }
 
   #nav-menu-container {
