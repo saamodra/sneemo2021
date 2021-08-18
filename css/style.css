@@ -77,6 +77,24 @@ h6 {
   max-height: 90px;
 }
 
+.text-bold-black {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
+}
+
+.italic-bold {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
+}
+
+.whitespace-no {
+  white-space: nowrap;
+}
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -1164,10 +1182,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .member .pic {
-  height: 400px;
+  height: 500px;
   overflow: hidden;
   text-align: center;
-  object-fit: cover;
 }
 
 #speakers .member .pic img {
