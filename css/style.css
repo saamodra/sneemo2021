@@ -593,11 +593,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#about .about-img img {
-  margin-left: -15px;
+#about .about-img picture {
   max-width: 100%;
   object-fit: contain;
   box-shadow: 3px 2px 5px 0 rgba(0, 0, 0, .075);
+}
+
+#about .about-img picture img {
+  width: 100%;
 }
 
 #about .content h2 {
