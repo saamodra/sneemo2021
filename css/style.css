@@ -1729,7 +1729,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .table td {
   padding: 1rem;
   vertical-align: top;
-  border-top: 0.0625rem solid #e9ecef;
 }
 
 .table thead th {
